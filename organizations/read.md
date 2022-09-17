@@ -1,7 +1,7 @@
 ---
 title: AWS Organizations and SCP
 author: haimtran
-description: simple demo scp 
+description: simple demo scp
 publishedDatte: 17/09/2022
 date: 2022-09-17
 ---
@@ -138,19 +138,17 @@ aws organizations attach-policy \
 deny dev to create dynamodb db table
 
 ```json
+{
   "Version": "2012-10-17",
   "Statement": [
     {
       "Sid": "DenyCreateDDBTable",
       "Effect": "Deny",
       "Action": "dynamodb:CreateTable",
-      "Resource": [
-        "*"
-      ]
+      "Resource": ["*"]
     }
   ]
 }
-
 ```
 
 update policy
