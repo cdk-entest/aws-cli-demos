@@ -1,6 +1,7 @@
 ---
 title: AWS Organizations and SCP
 author: haimtran
+description: simple demo scp 
 publishedDatte: 17/09/2022
 date: 2022-09-17
 ---
