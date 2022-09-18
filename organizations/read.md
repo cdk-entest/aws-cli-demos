@@ -8,7 +8,7 @@ date: 2022-09-17
 
 ## Introduction
 
-SCP enforce policies into multiple accounts within an OU or multiple OUs. For example, dev department can only launch t2.small instances.
+SCP enforces policies into multiple accounts within an OU or multiple OUs. For example, dev department can only launch t2.small instances.
 
 - create multiple accounts
 - create organization units
